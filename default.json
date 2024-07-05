@@ -5,13 +5,13 @@
     ":disableRateLimiting",
     ":dependencyDashboard",
     ":semanticCommits",
-    ":timezone(America/New_York)",
     "github>chkpwd/renovate:automerge"
   ],
   "dependencyDashboardTitle": "Renovate Dashboard🖲️",
   "suppressNotifications": [
     "prIgnoreNotification"
   ],
+  "timezone": "America/New_York",
   "commitBodyTable": true,
   "rebaseWhen": "conflicted",
   "platformCommit": true,
