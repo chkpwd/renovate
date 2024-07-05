@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":automergeBranch",
+    ":disableRateLimiting",
+    ":dependencyDashboard",
+    ":semanticCommits",
+    ":timezone(America/New_York)",
+    "github>chkpwd/renovate:automerge"
+  ],
+  "dependencyDashboardTitle": "Renovate Dashboard🖲️",
+  "suppressNotifications": [
+    "prIgnoreNotification"
+  ],
+  "commitBodyTable": true,
+  "rebaseWhen": "conflicted",
+  "platformCommit": true,
+  "ignorePaths": [
+    "**/*.sops.*"
+  ]
+}
