@@ -7,7 +7,7 @@
     ":semanticCommits",
     "github>chkpwd/renovate:automerge"
   ],
-  "dependencyDashboardTitle": "Renovate Dashboard🖲️",
+  "dependencyDashboardTitle": "Renovate Dashboard 👨🏾‍💻",
   "suppressNotifications": [
     "prIgnoreNotification"
   ],
